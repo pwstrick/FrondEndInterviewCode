@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>2.6-1</title>
+</head>
+<body>
+	<img id="cross" src="http://www.pwstrick.com/img/avatar.jpg"  crossorigin="anonymous"/>
+	<script>
+	  window.onload = function() {
+		var canvas = document.createElement("canvas"),
+		  ctx = canvas.getContext("2d"),
+		  img = document.getElementById("cross");
+		ctx.drawImage(img, 0, 0);
+		//图像不启用跨域将不能执行该方法，会抛出安全错误
+		canvas.toDataURL(); 
+	  };
+	</script>
+</body>
+</html>

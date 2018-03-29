@@ -1,0 +1,49 @@
+.layout-holy {
+    margin-bottom: 50px;
+    width: 400px;
+}
+.layout-holy div,
+.layout-holy header,
+.layout-holy footer {
+    color: #FFF;
+}
+header {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background: grey;
+    text-align: center;
+}
+footer {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    background: black;
+}
+.layout-holy-content {
+    padding: 0 100px 0;
+    overflow: hidden;
+}
+.layout-holy-content section {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+}
+.left {
+    margin-left: -100%;
+    right: 100px;
+    width: 100px;
+    background: #F60;
+}
+.center {
+    width: 100%;
+    background: blue;
+}
+.right {
+    margin-right: -100px;
+    background: #FC0;
+    width: 100px;
+}

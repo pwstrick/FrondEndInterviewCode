@@ -1,0 +1,34 @@
+.d-table {
+	display: table;
+	width: 200px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+.d-caption {
+	display: table-caption;
+	text-align: center;
+}
+.d-header-group {
+	display: table-header-group;
+}
+.d-footer-group {
+	display: table-footer-group;
+}
+.d-row-group {
+	display: table-row-group;
+}
+.d-row {
+	display: table-row;
+}
+.d-cell {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #000;
+}
+.d-column-group {
+	display: table-column-group;
+}
+.d-column {
+	display: table-column;
+	

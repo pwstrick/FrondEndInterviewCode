@@ -1,0 +1,15 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+p {
+	width: 150px;
+	border: 1px solid #CCC;
+	margin: 30px;
+}
+.word-break-break {
+	word-break: break-all;
+}
+.word-break-keep {
+	word-break: keep-all;
+}

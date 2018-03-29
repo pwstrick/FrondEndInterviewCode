@@ -1,0 +1,16 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+input[type="date"] {
+  position: relative;
+}
+input[type="date"]::before {
+  content: attr(placeholder);
+  color: #bbb;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+

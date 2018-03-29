@@ -1,0 +1,16 @@
+div {
+	border: 1px solid #000;
+}
+div > p {
+	background: #FF6600;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+div {
+  width: 200px;
+  height: 100px;
+}
+div > p {
+  height: 50%;
+}

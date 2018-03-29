@@ -1,0 +1,24 @@
+p {
+	margin: 0;
+}
+div {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+	position: relative;
+}
+.center-lh {
+    height: 100px;
+    padding: 0 5px;
+	line-height: 100px;
+}
+.center-half {
+    position: absolute;
+    background: #F60;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    opacity: .4;
+    z-index: -1;
+}

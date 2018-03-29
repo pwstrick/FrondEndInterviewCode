@@ -1,0 +1,35 @@
+p {
+	margin: 0;
+}
+div {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: 50px;
+	animation-name: color;
+	animation-duration: 5s;
+	animation-delay: 5s;
+	background: grey;
+}
+div p {
+	color: #FFF;
+	padding-top: 25%;
+	text-align: center;
+}
+.animation-mode-forwards {
+	animation-fill-mode: forwards;
+}
+.animation-mode-backwards {
+	animation-fill-mode: backwards;
+}
+.animation-mode-both {
+	animation-fill-mode: both;
+}
+@keyframes color {
+	from {
+		background: blue;
+	}
+	to {
+		background: red;
+	}
+}

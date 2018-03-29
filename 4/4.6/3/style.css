@@ -1,0 +1,21 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+p {
+	border: 1px solid #000;
+	font-family: SimSun;
+	padding: 10px;
+	line-height:40px;
+	display: inline-block;
+}
+.first {
+	font-size: 30px;
+	background: rgb(242,242,242);
+}
+.second {
+	font-size: 20px;
+	background: rgb(0,176,240);
+}

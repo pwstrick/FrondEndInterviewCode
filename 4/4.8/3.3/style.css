@@ -1,0 +1,41 @@
+p {
+	margin: 0;
+}
+div {
+	width: 150px;
+	height: 100px;
+	background: #FC0;
+	padding: 10px;
+	margin: 50px;
+}
+div p {
+	color: #FFF;
+	padding-top: 25%;
+	text-align: center;
+}
+.normal {
+	animation: drift 2s infinite normal both;
+}
+.reverse {
+	animation: drift 2s infinite reverse both;
+}
+.alternate {
+	animation: drift 2s infinite alternate both;
+}
+.alternate-reverse {
+	animation: drift 2s infinite alternate-reverse both;
+}
+@keyframes drift {
+	from {
+		transform: translate(0, 0);
+	}
+	30% {
+		transform: translate(20px, 0);
+	}
+	60% {
+		transform: translate(40px, 0);
+	}
+	to {
+		transform: translate(60px, 0);
+	}
+}

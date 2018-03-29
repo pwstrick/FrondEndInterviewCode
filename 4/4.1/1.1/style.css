@@ -1,0 +1,45 @@
+p {
+	margin: 0;
+}
+div {
+	margin-bottom: 20px;
+}
+.div1 {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #000;
+}
+.div2 {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #000;
+	padding: 10px;
+	box-sizing: border-box;
+}
+p {
+	width: 100px;
+    height: 100px;
+    background: #FFCC00;
+	text-align: center;
+	
+	color: #FFF;
+}
+
+.div3 {
+    width: 200px;
+    height: 170px;
+    border: 1px solid #000;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.block {
+	width: 80px;
+    height: 70px;
+	line-height: 70px;
+}
+.red {
+	background: #FF6600;
+}
+.grey {
+	background: #CCC;
+}

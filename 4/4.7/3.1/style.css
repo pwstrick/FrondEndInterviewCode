@@ -1,0 +1,17 @@
+p {
+	margin: 0;
+}
+div {
+	width: 100px;
+	height: 150px;
+	padding: 20px;
+	border: 1px solid #000;
+	background: no-repeat url(../../../assets/img/lake.png) left top;
+	text-align: center;
+	overflow: auto;
+	background-size: 100% auto;
+}
+div p {
+	color: #FFF;
+	height: 300px;
+}

@@ -1,0 +1,15 @@
+p {
+	margin: 0;
+}
+section {
+	overflow: hidden;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #000;
+}
+div {
+	width: 100px;
+    height: 100px;
+    background: #FFCC00;
+    float: left;
+}

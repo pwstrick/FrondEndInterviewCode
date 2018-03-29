@@ -1,0 +1,7 @@
+@media tv,screen and (max-width:600px) {
+}
+/* 相当于下面的两条媒体查询 */
+@media tv {
+}
+@media screen and (max-width:600px) {
+}

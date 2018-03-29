@@ -1,0 +1,39 @@
+div {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+	position: relative;
+}
+.center-tc {
+    text-align: center;
+	height: 100px;
+}
+.center-half {
+    position: absolute;
+    background: #F60;
+    right: 0;
+    top: 0;
+	left: 0;
+	top: 0;
+    opacity: .4;
+    z-index: -1;
+	width: 50%;
+    height: 100%;
+}
+div section {
+    background: #F60;
+	margin: 0 auto;
+}
+.center-position {
+	width: 40px;
+	height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+}
+.center-position2 {
+	padding: 20px;
+	position: absolute;
+    left: 50%;
+	transform: translateX(-50%);
+}

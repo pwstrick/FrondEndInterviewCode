@@ -1,0 +1,41 @@
+.center-tc {
+	width: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+	position: relative;
+	overflow: hidden;
+    text-align: center;
+    padding: 5px;
+}
+.center-float {
+	width: 40px;
+	height: 40px;
+    float: left;
+    position: relative;
+    left: 50%;
+	/*background: #F60;*/
+}
+section {
+	background: #F60;
+	color: #FFF;
+	width: 40px;
+	height: 40px;
+}
+.center-half {
+    position: absolute;
+    background: #F60;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: .4;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+}
+.center-transform {
+    transform: translateX(-50%);
+	background: #F60;
+	color: #FFF;
+	width: 40px;
+	height: 40px;
+}

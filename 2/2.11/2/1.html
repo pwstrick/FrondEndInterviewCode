@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>2.11-2</title>
+</head>
+<body>
+	<canvas id="btnCanvas" role="button" aria-label="游戏开始" 
+        width="200" height="100">
+	  <p>这是一个按钮，用于启动游戏</p>
+	</canvas>
+	<script>
+		var canvas = document.getElementById("btnCanvas"),
+			ctx = canvas.getContext("2d");
+		ctx.fillStyle = "#007ab9"; //矩形背景色
+		ctx.fillRect(0, 0, canvas.width, canvas.height); //绘制矩形
+		ctx.font = "40px serif"; //字体设置
+		ctx.fillStyle = "#FFF"; //字体颜色
+		ctx.fillText("游戏开始", 20, 60); //绘制文本
+	</script>
+</body>
+</html>

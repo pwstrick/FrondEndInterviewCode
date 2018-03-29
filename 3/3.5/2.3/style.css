@@ -1,0 +1,14 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 兄弟选择器 */
+.bfc ~ div { 
+	color: blue;
+}
+/* 相邻选择器 */
+.bfc + div { 
+	color: red;
+}

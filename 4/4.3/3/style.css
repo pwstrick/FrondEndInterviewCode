@@ -1,0 +1,36 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+}
+.border-color {
+	border-width: 5px;
+	border-style: solid;
+	border-top-color: #F00;
+	border-right-color: red;
+	border-bottom-color: rgba(255, 0, 0, .5);
+	border-left-color: hsla(0, 100%, 50%, .2);
+}
+.border-triangle {
+	padding: 0;
+	width: 0;
+	height: 0;
+	border-width: 50px;
+	border-style: solid;
+	border-top-color: gray;
+	border-right-color: yellow;
+	border-left-color: orange;
+	border-bottom-color: black;
+}
+.border-triangle2 {
+	padding: 0;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: gray;
+}

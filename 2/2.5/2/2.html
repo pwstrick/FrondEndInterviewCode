@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>iframe</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no"/>
+	<style>
+		a {
+			color:blue;
+			text-decoration:none;
+		}
+		iframe {
+			border: 0;
+		}
+		fieldset {
+			border:1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		<a href="http://www.pwstrick.com" target="_self">self</a>
+		<a href="http://www.pwstrick.com" target="_blank">blank</a>
+		<a href="http://www.pwstrick.com" target="_parent">parent</a>
+		<a href="http://www.pwstrick.com" target="_top">top</a>
+	</p>
+	<fieldset>
+		<legend>窗口3</legend>
+		<iframe src="3.html" width="100%" height="50"></iframe>
+	</fieldset>
+</body>
+</html>

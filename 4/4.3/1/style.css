@@ -1,0 +1,57 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+}
+section {
+	margin: 20px 0;
+}
+.border-dotted {
+	border: 1px dotted;
+}
+.border-dashed {
+	border: 1px dashed;
+}
+.border-solid {
+	border: 1px solid;
+}
+.border-double {
+	border: 2px double;
+}
+.border-groove {
+	border: 5px groove;
+}
+.border-ridge {
+	border: 5px ridge;
+}
+.border-inset {
+	border: 5px inset;
+}
+.border-outset {
+	border: 5px outset;
+}
+.border-more {
+	border-width: 1px;
+	border-style: dotted dashed solid none;
+	border-top-style: dotted;
+	border-right-style: dashed;
+	border-bottom-style: solid;
+	border-left-style: none;
+}
+
+.table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.table td, .table th {
+	padding: 5px 20px;
+	border: 1px solid #000;
+}
+.table .yellow {
+	border: 1px solid #FC0;
+}

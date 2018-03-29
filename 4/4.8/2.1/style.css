@@ -1,0 +1,15 @@
+p {
+	margin: 0;
+}
+.transition {
+	width: 100px;
+	height: 100px;
+	background: #FC0;
+	padding: 10px;
+	transition: transform 500ms ease-out 1s,
+	background 500ms ease-out;
+	margin: 50px;
+}
+.transition:hover {
+	transform: rotate(30deg);
+}

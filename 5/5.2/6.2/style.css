@@ -1,0 +1,21 @@
+.layout-height {
+    width: 300px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.layout-height section {
+    color: #FFF;
+    float: left;
+}
+.layout-margin-left {
+    width: 100px;
+    background: #F60;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+.layout-margin-right {
+    width: 200px;
+    background: #FC0;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}

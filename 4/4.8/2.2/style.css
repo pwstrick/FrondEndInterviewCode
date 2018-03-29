@@ -1,0 +1,19 @@
+p {
+	margin: 0;
+}
+.transition {
+	width: 100px;
+	height: 100px;
+	background: #FC0;
+	padding: 10px;
+	transition: all 500ms ease-out;
+	margin: 50px;
+}
+.transition:hover {
+	transform: rotate(30deg);
+}
+@media only screen and (max-width: 600px) {
+	div {
+		transform: rotate(30deg);
+	}
+}

@@ -1,0 +1,9 @@
+p {
+  quotes: "<" ">";
+}
+p::before {
+  content: open-quote;
+}
+p::after {
+  content: close-quote;
+}

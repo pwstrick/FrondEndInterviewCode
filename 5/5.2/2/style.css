@@ -1,0 +1,40 @@
+div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+}
+section {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.position-absolute1 {
+    background: red;
+    left: 10px;
+    top: 10px;
+}
+.position-absolute2 {
+    background: blue;
+    right: 20px;
+    bottom: 20px;
+}
+.position-absolute3 {
+    background: orange;
+    left: 40px;
+    bottom: 50px;
+    z-index: 1;
+}
+.position-absolute4 {
+    background: yellow;
+    right: 40px;
+    top: 20px;
+}
+.position-absolute5 {
+    background: grey;
+    left: -10px;
+    bottom: -10px;
+}

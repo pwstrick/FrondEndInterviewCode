@@ -1,0 +1,5 @@
+.d-list {
+  display: list-item;
+  list-style-position: inside;
+  list-style-type: circle;
+}

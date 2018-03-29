@@ -1,0 +1,22 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+}
+.border-left {
+	border-left: 1px solid;
+}
+.border-top {
+	border-top: 1px solid;
+}
+.border-bottom {
+	border-bottom: 1px solid;
+}
+.border-right {
+	border-right: 1px solid;
+}

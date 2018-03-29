@@ -1,0 +1,19 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+}
+.border-thin {
+	border: thin solid;
+}
+.border-medium {
+	border: medium solid;
+}
+.border-thick {
+	border: thick solid;
+}

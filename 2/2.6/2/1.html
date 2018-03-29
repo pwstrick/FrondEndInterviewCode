@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>2.6-2</title>
+	<style>
+		.circle {
+			position: absolute;
+			left: 20px;
+			top: 20px;
+			border: 2px solid rgb(3, 75, 150);
+			background: rgba(3, 75, 150, .6);
+			width: 60px;
+			height: 60px;
+			border-radius: 100%;
+		}
+		.rect {
+			position: absolute;
+			left: 100px;
+			top: 100px;
+			border: 2px solid rgb(150, 35,74);
+			background: rgba(150, 35, 74, .6);
+			width: 50px;
+			height: 70px;
+		}
+	</style>
+</head>
+<body>
+	<img src="../../../assets/img/lake.png" usemap="#Map" alt="分区响应图" width="300" />
+	<map name="Map">
+	  <area shape="circle" coords="50,50,30" href="/">
+	  <area shape="poly" coords="230,25,215,60,180,75,215,90,230,125,245,90,280,75,245,60" href="/">
+	  <area shape="rect" coords="100,100,150,170" href="/">
+	</map>
+	<div class="circle"></div>
+	<div class="rect"></div>
+</body>
+</html>

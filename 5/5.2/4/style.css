@@ -1,0 +1,23 @@
+div {
+    overflow: hidden;
+    border: 2px solid #000;
+    text-align: center;
+    width: 18rem;
+    margin: 20px;
+}
+.elastic-left {
+    background: #F60;
+    width: 5rem;
+    height: 10rem;
+    line-height: 10rem;
+    float: left;
+    color: #FFF;
+}
+.elastic-right {
+    background: #FC0;
+    width: 10rem;
+    height: 8rem;
+    line-height: 8rem;
+    float: right;
+    color: #FFF;
+}

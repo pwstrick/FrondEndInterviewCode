@@ -1,0 +1,36 @@
+p {
+	margin: 0;
+}
+section {
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #000;
+	margin-bottom: 20px;
+	color: #FFF;
+}
+div {
+	text-align: center;
+	line-height: 90px;
+	height: 90px;
+}
+.div1 {
+	width: 90px;
+    background: #FFCC00;
+}
+.div2 {
+	width: 90px;
+    background: #FF6600;
+}
+.div3 {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+    background: #FFCC00;
+}
+.div4 {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+    background: #FF6600;
+}

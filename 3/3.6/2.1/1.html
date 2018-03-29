@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>3.6-2.1</title>
+	<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+	<input id="date" type="date" placeholder="请选择日期" />
+	<script>
+		var date = document.getElementById("date");
+		date.addEventListener("focus", function() {
+		  this.removeAttribute("placeholder");
+		});
+		date.addEventListener("blur", function() {
+		  var val = this.value;
+		  if (!val) this.setAttribute("placeholder", "请选择日期");
+		});
+	</script>
+</body>
+</html>

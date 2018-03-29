@@ -1,0 +1,22 @@
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    border: 2px solid #000;
+    margin:0 10px 10px 0;
+}
+.flex section {
+    color: #FFF;
+    text-align: center;
+    background: #F60;
+    margin: 5px;
+    flex-grow: 1;
+    height: 50px;
+    line-height: 50px;
+}
+.flex .flex-col-2 {
+    flex-grow: 2;
+}
+

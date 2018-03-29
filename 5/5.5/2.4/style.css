@@ -1,0 +1,27 @@
+div {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+	position: relative;
+}
+.center-tc {
+    text-align: center;
+	height: 100px;
+}
+div section {
+    background: #F60;
+	margin: 0 auto;
+}
+.center-position {
+	width: 40px;
+	height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+.center-position2 {
+	padding: 20px;
+	position: absolute;
+    top: 50%;
+	transform: translateY(-50%);
+}

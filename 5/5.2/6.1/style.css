@@ -1,0 +1,19 @@
+.layout-height {
+    width: 300px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.layout-height section {
+    color: #FFF;
+    float: left;
+}
+.layout-height-bac {
+    background: url(../../../assets/img/layout-bac.png) repeat-y;
+    background-size: 100% 100%;
+}
+.layout-height-bac-left {
+    width: 100px;
+}
+.layout-height-bac-right {
+    width: 200px;
+}

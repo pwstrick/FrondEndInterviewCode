@@ -1,0 +1,13 @@
+.form-container {
+   width: 300px;
+}
+fieldset {
+    border: 1px solid #000;
+    padding: 10px;
+	margin: 50px;
+}
+legend {
+    margin: 0;
+    width: auto;
+    border: 0;
+}

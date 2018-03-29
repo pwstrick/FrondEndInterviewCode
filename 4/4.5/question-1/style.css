@@ -1,0 +1,26 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+section {
+	padding: 10px 10px 0;
+	width: 250px;
+	border: 1px solid #000;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.font-italic {
+	font-style: italic;
+}
+.font-oblique {
+	font-style: oblique;
+}
+.font-style {
+	font-family: Georgia;
+	font-size: 22px;
+}
+.font-style2 {
+	font-family: SimSun;
+}

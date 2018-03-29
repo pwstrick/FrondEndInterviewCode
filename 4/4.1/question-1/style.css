@@ -1,0 +1,20 @@
+p {
+	margin: 0;
+}
+section {
+    width: 200px;
+	height: 120px;
+    padding: 10px;
+    border: 1px solid #000;
+	margin-bottom: 20px;
+}
+div {
+    background: #FFCC00;
+	float:left; 
+	width:80px; 
+	height:80px
+}
+p {
+	clear:both;
+	margin-top:15px;
+}

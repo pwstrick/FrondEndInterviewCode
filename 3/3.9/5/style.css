@@ -1,0 +1,6 @@
+div {
+  font-size: 36px;
+}
+div > p {
+  font-size: 50%;
+}

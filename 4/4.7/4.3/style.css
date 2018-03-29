@@ -1,0 +1,16 @@
+p {
+	margin: 0;
+}
+div {
+	width: 100px;
+	height: 100px;
+	padding: 25px;
+	background: url(../../../assets/img/lake.png) no-repeat;
+	text-align: center;
+	border: 1px solid #000;
+	background-position: 60% 20%;
+}
+div p {
+	margin-top: 40%;
+	color: #FFF;
+}

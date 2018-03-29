@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>a元素</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no"/>
+	<style>
+		.line {
+			margin-bottom:200px;
+		}
+		a {
+			color:blue;
+			text-decoration:none;
+		}
+		iframe {
+			border: 0;
+		}
+		fieldset {
+			width:300px;
+			border:1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<section class="line">
+		<fieldset>
+			<legend>窗口1</legend>
+			<p>
+				<a href="http://www.pwstrick.com" target="_self">self</a>
+				<a href="http://www.pwstrick.com" target="_blank">blank</a>
+				<a href="http://www.pwstrick.com" target="_parent">parent</a>
+				<a href="http://www.pwstrick.com" target="_top">top</a>
+			</p>
+			<fieldset>
+				<legend>窗口2</legend>
+				<iframe src="2.html"></iframe>
+			</fieldset>
+		</fieldset>
+	</section>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    border: 2px solid #000;
+    margin:0 10px 10px 0;
+}
+.flex section {
+    color: #FFF;
+    text-align: center;
+    background: #F60;
+    flex-grow: 1;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+}
+.flex-order1 {
+    order: 1;
+}
+.flex-order2 {
+    order: 2;
+}
+.flex-order3 {
+    order: 3;
+}
+.flex-order4 {
+    order: 4;
+}

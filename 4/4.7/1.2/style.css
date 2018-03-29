@@ -1,0 +1,22 @@
+p {
+	margin: 0;
+}
+div {
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	border: 10px solid rgba(255,204,0,.5);
+	background: url(../../../assets/img/lake.png) no-repeat;
+	text-align: center;
+	margin-bottom: 30px;
+}
+div p {
+	margin-top: 30%;
+	color: #FFF;
+}
+.background-clip-padding {
+	background-clip: padding-box;
+}
+.background-clip-content {
+	background-clip: content-box;
+}

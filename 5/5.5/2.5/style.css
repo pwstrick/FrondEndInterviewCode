@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+	position: relative;
+}
+.center-tc {
+    text-align: center;
+    padding: 5px;
+}
+div section {
+    width: 40px;
+	height: 40px;
+    background: #F60;
+}
+.flex-align-items-center {
+    align-items: center;
+}
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	height: 100px;
+}

@@ -1,0 +1,31 @@
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    border: 2px solid #000;
+    margin:0 10px 10px 0;
+}
+.flex section {
+    color: #FFF;
+    text-align: center;
+    background: #F60;
+    flex-grow: 1;
+    height: 50px;
+    line-height: 50px;
+}
+.flex section:nth-child(1) {
+    flex: 1 1 50px;
+    background:red;
+}
+
+.flex section:nth-child(2) {
+    flex: 2 2 80px;
+    background:blue;
+}
+
+.flex section:nth-child(3) {
+    flex: 3 3 100px;
+    background:grey;
+}

@@ -1,0 +1,18 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+  counter-reset: digit;
+}
+/*
+ul li::before {
+  counter-increment: digit;
+  content: counter(digit) "）";
+} */
+ul li::before,
+ol li::before {
+  counter-increment: digit;
+  content: counters(digit, ".") "）"; 
+}

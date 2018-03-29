@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>2.11-question.1</title>
+	<style>
+		.btn {
+			width:200px;
+			height:100px;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="btnCanvas" width="200" height="100">
+	  <p>这是一个按钮，用于启动游戏</p>
+	</canvas>
+	<canvas id="btnCanvas2" class="btn">
+	  <p>这是一个按钮，用于启动游戏</p>
+	</canvas>
+	<script>
+		function btn(id) {
+			var canvas = document.getElementById(id),
+				ctx = canvas.getContext("2d");
+			ctx.fillStyle = "#007ab9"; //矩形背景色
+			console.log(canvas.width, canvas.height);
+			ctx.fillRect(0, 0, canvas.width, canvas.height); //绘制矩形
+			ctx.font = "40px serif"; //字体设置
+			ctx.fillStyle = "#FFF"; //字体颜色
+			ctx.fillText("游戏开始", 20, 60); //绘制文本
+		}
+		btn("btnCanvas");
+		btn("btnCanvas2");
+	</script>
+</body>
+</html>

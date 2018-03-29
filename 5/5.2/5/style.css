@@ -1,0 +1,13 @@
+div {
+    margin: 20px;
+}
+.column-origin {
+    column-count: 3;
+    column-gap: 5px;
+    border: 2px solid #000;
+    width: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+}

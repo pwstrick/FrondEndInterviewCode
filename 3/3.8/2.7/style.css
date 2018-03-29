@@ -1,0 +1,9 @@
+section {
+  margin: 6px;
+  background: #FF6600;
+}
+section div {
+  width: 50vw;
+  height: 50vh;
+  background: #FFCC00;
+}

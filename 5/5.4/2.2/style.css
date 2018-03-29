@@ -1,0 +1,36 @@
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    border: 2px solid #000;
+    margin:0 10px 10px 0;
+}
+.flex section {
+    color: #FFF;
+    text-align: center;
+    background: #F60;
+    margin: 5px;
+}
+.flex-wrap section {
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+}
+.flex-height {
+    height: 200px;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+    width: 200px;
+}
+.flex-align-content-center {
+    align-content: center;
+}
+.flex-align-content-space-between {
+    align-content: space-between;
+}
+.flex-align-content-space-around {
+    align-content: space-around;
+}

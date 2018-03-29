@@ -1,0 +1,12 @@
+.border {
+	margin: 50px 20px;
+	width: 100px;
+	height: 50px;
+	border: 5px solid #000;
+	box-shadow: 0 0 0 5px #CCC,
+				0 0 0 10px #FC0,
+				0 0 0 5px #F00 inset;
+}
+.border-radius {
+	border-radius: 10px;
+}

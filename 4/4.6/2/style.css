@@ -1,0 +1,23 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+section {
+	font-size: 20px;
+	line-height: 40px;
+	border: 1px solid #000;
+	width: 350px;
+	font-family: SimSun;
+}
+.normal {
+	background: rgb(242,242,242);
+}
+img {
+	width: 40px;
+	height: 40px;
+}
+span {
+	background: rgb(0,176,240);
+}

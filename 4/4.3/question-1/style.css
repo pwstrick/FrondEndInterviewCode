@@ -1,0 +1,16 @@
+.border-none {
+	width: 200px;
+	padding: 25px 0;
+	color: #FF6600;
+	border: none;
+	border-style: solid;
+	text-align: center;
+	margin: 20px;
+}
+.border-zero {
+	width: 200px;
+	padding: 25px 0;
+	margin: 20px;
+	border: 0;
+	text-align: center;
+}

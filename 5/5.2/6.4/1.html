@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>5.2-6.4</title>
+	<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="layout-height">
+		<section class="layout-js-left" id="left">左右两边的高度将自适应一直相等。</section>
+		<section class="layout-js-right" id="right"></section>
+	</div>
+	<script>
+		var left = document.getElementById("left"), 	//左边列
+				right = document.getElementById("right"); 	//右边列
+		var leftH = left.clientHeight, 					//左边列的高度
+				rightH = right.clientHeight; 				//右边列的高度
+		//得到最大的高度值
+		var height = (leftH >= rightH ? leftH : rightH) + "px";
+		left.style.height = height; 	//重新定义左边列的高度
+		right.style.height = height; 	//重新定义右边列的高度
+	</script>
+</body>
+</html>

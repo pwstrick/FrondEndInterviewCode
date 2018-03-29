@@ -1,0 +1,16 @@
+body {
+  line-height: 1.4;
+  color: #333;
+}
+* {
+  color: #FFCC00;
+}
+div {
+  color: #FF6600;
+}
+div {
+  padding: 10px;
+}
+div p {
+  padding: inherit;
+}

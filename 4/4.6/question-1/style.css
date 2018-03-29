@@ -1,0 +1,21 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+p {
+	padding: 10px;
+	font-size: 20px;
+}
+.first {
+	line-height: 1.2; 	/*数字*/
+	background: rgb(242,242,242);
+}
+.second {
+	line-height: 120%; 	/*百分数*/
+	background: rgb(0,176,240);
+}
+span {
+	font-size: 30px;
+}

@@ -1,0 +1,37 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+section {
+	padding: 10px 10px 0;
+	width: 380px;
+	border: 1px solid #000;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.font-serif {
+	font-family: serif;
+}
+.font-sans-serif {
+	font-family: sans-serif;
+}
+.font-monospace {
+	font-family: courier;
+}
+.font-cursive {
+	font-family: cursive;
+}
+.font-cursive-ms {
+	font-family: 'Comic Sans MS';
+}
+.font-fantasy {
+	font-family: fantasy;
+}
+.font-simsun {
+	font-family: SimSun;
+}
+.font-yahei {
+	font-family: 'Microsoft YaHei';
+}

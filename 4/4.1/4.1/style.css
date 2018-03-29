@@ -1,0 +1,14 @@
+p {
+	margin: 0;
+}
+section {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+	margin-bottom: 20px;
+}
+div {
+	width: 50px;
+    height: 50px;
+    background: #FFCC00;
+}

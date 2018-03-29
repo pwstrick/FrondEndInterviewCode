@@ -1,0 +1,12 @@
+p {
+	margin: 0;
+}
+div {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 50px;
+	position: relative;
+}
+.center-padding {
+    padding: 50px 0;
+}

@@ -1,0 +1,20 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+p {
+	width: 200px; 		/*容器宽度*/
+	white-space: nowrap; 	/*强制在一行*/
+	overflow: hidden; 	/*隐藏溢出*/
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+.overflow-clip {
+	text-overflow: clip;
+}
+.overflow-ellipsis {
+	text-overflow: ellipsis;
+}
+.overflow-string {
+	text-overflow: ";";
+}

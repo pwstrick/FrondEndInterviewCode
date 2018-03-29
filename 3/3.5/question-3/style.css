@@ -1,0 +1,9 @@
+/* 匹配第一个span元素 */
+div :first-child { 
+	color: red;
+}
+/* 匹配第一个p元素 */
+div p:first-of-type { 
+	color: blue;
+}
+

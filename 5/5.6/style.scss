@@ -1,0 +1,112 @@
+//颜色
+$border-color:		#e0e0e0;
+$positive-bg:		#18b4ed;
+//字体大小
+$font-size-h1:		44px;
+$font-size-h2:		40px;
+//长度值
+$wrap-padding-xxl:	30px;
+$wrap-padding-lg:	20px;
+
+
+//算术运算符
+$font-size: 	$font-size-h1 / 2;
+$margin: 	$wrap-padding-lg * 2;
+//比较运算符
+@if $direction == row {
+  flex-direction: row;
+}
+
+
+.float {
+  & > section {
+    float: left;
+  }
+  div {
+    float: right;
+  }
+}
+
+
+
+@if $direction == row {
+  flex-direction: row;
+}
+@else if $direction == row-reverse {
+  flex-direction: row-reverse;
+}
+@else {
+  flex-direction: column;
+}
+
+
+@for $row from 0 through 3 {
+  .ui-push-#{$row} {
+    left: 10px;
+  }
+}
+
+$border-list: (border-top, border-bottom);
+@each $name in $border-list {
+  #{$name}: 1px solid #FFF;
+}
+$border-map: (border-top:#F60, border-bottom:#FC0);
+@each $name, $color in $border-map {
+  #{$name}: 1px solid #{$color};
+}
+
+$current: 0;
+@while $current == 0 {
+  .ui-padding-#{$current} {
+    left: 10px;
+  }
+  $current: ($current + 1) % 2;
+}
+
+
+@mixin flexCenter($direction:column) {
+  display: flex;
+  @if $direction == row {
+    flex-direction: row;
+  }
+  @else {
+    flex-direction: column;
+  }
+}
+.flex {
+  @include flexCenter(row);
+}
+
+
+@function total($px, $multiple) {
+  @return $px * $multiple;
+}
+div {
+  width: total(32px, 2);
+}
+
+
+.relative {
+  position: relative;
+}
+.position {
+  @extend .relative;
+  @extend .relative div;	/* 错误的继承 */
+}
+/* 相当于 */
+.relative,
+.position {
+  position: relative;
+}
+
+
+%relative {
+  position: relative;
+}
+.position {
+  @extend %relative;
+}
+/* 相当于 */
+.position {
+  position: relative;
+}

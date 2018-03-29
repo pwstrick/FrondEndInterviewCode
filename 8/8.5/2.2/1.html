@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>8.5-2.2</title>
+</head>
+<body>
+	<button type="button" onclick="console.log('onclick')">提交</button>
+	<!--不能包含下面的函数声明-->
+	<button type="button" onclick="function(event){ }">提交</button>
+	
+	<!--控制台输出的值为button-->
+	<button type="button" onclick="console.log(this.type)">this</button>
+	<script>
+	  function current() {
+		console.log(this); 	//Window对象
+	  }
+	</script>
+	<button type="button" onclick="current()">this</button>
+	
+	<button type="button" onclick="console.log(type);">快捷</button>
+	<button type="button" onclick="getElementById('btn');">快捷</button>
+	
+	<form>
+	  <button type="submit" onclick="return false;">表单</button>
+	</form>
+    <script src="default.js"></script>
+</body>
+</html>

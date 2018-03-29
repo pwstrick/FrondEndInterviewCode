@@ -1,0 +1,19 @@
+.border {
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 10px;
+	margin: 50px;
+}
+.float {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.float div {
+    float: left;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 5px;
+    text-align: center;
+    color: #FFF;
+}

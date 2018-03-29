@@ -1,0 +1,42 @@
+p {
+	margin: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+section {
+	padding: 10px;
+	border: 1px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.decoration-underline {
+	text-decoration: underline;
+}
+.decoration-overline {
+	text-decoration: overline;
+}
+.decoration-line-through {
+	text-decoration: line-through;
+}
+.decoration-blink {
+	text-decoration: blink;
+}
+.decoration-none {
+	text-decoration: none;
+}
+.decoration-underline-solid {
+	text-decoration: underline solid red;
+}
+.decoration-underline-double {
+	text-decoration: underline double red;
+}
+.decoration-underline-dotted {
+	text-decoration: underline dotted red;
+}
+.decoration-underline-dashed {
+	text-decoration: underline dashed red;
+}
+.decoration-underline-wavy {
+	text-decoration: underline wavy red;
+}

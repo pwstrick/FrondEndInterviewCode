@@ -1,0 +1,39 @@
+.column-origin {
+    column-count: 4;
+    column-gap: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    width: 310px;
+    height: 60px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+.column-float {
+    overflow: hidden;
+    border: 2px solid #000;
+    text-align: center;
+    width: 310px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.layout-column1 {
+    background: red;
+}
+.layout-column2 {
+    background: blue;
+}
+.layout-column3 {
+    background: orange;
+}
+.layout-column4 {
+    background: grey;
+}
+.column-float section {
+    width: 70px;
+    color: #FFF;
+    float: left;
+    margin-right: 10px;
+}
+.column-float section:nth-child(4n) {
+    margin-right: 0;
+}

@@ -1,0 +1,23 @@
+.page {
+    background: url(../../../assets/img/page.png) no-repeat center top;
+    background-size: 100% auto;
+	margin: 50px;
+}
+.page-container {
+    background: rgba(255,255,255,.5);
+}
+.page-container .row:first-of-type {
+    border-top: 2px solid #F60;
+}
+.page-container .row {
+    margin: 0 0 0 0;
+    border-right: 2px solid #F60;
+    border-bottom: 2px solid #F60;
+}
+.page div[class*=col-] {
+    border: 2px solid #F60;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    height: 30px;
+}

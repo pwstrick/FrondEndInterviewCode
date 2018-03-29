@@ -1,0 +1,17 @@
+{
+  "age": Infinity, 		//原始值
+  "name": function() {	//函数
+    return "pingwen";
+  },
+  "error": new Error("错误"),//对象实例
+  "regex": /\d/ 			//正则表达式
+}
+{
+"age": 010,
+"height": 1.,
+"weight": .1
+}
+{
+"name": 'pingwen',
+"school": "normal \n university"
+}

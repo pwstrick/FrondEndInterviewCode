@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>2.9-2</title>
+</head>
+<body>
+	<h2>长轮询</h2>
+	<section id="poll"></section>
+	<h2>跨域通信</h2>
+	<iframe src="iframe.html?nick=strick&age=28"></iframe>
+	<h2>无刷新上传</h2>
+	<form action="action.php" enctype="multipart/form-data" method="post" target="upload">
+	  <iframe name="upload"></iframe>
+	  <input name="attach" type="file"/>
+	  <input type="submit"/>
+	</form>
+	<script>
+		//实现长轮询
+		var iframeCon = document.querySelector("#poll"),
+		  text; //传递的信息
+		var iframe = document.createElement("iframe");
+		iframe.id = "frame";
+		iframe.style = "display:none;";
+		iframe.name = "polling";
+		iframe.src = "iframe.html";
+		//iframeCon.appendChild(iframe); //如果要长轮询可取消注释
+		iframe.onload = function() {
+		  var iloc = iframe.contentWindow.location,
+			idoc = iframe.contentDocument;
+		  setTimeout(function() {
+			text = idoc.getElementsByTagName("body")[0].textContent;
+			console.log(text);
+			iloc.reload(); //刷新页面,再次获取信息，并且会触发onload函数
+		  }, 2000);
+		};
+	</script>
+</body>
+</html>

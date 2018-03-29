@@ -1,0 +1,12 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+p {
+	width: 150px;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+.word-wrap {
+	word-wrap: break-word;
+}

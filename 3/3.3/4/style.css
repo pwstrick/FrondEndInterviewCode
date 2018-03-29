@@ -1,0 +1,5 @@
+.d-inline-block {
+	display: inline-block;
+	border: 1px solid #000;
+	letter-spacing: 0;
+}

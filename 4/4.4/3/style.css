@@ -1,0 +1,21 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+p {
+	width: 200px;
+	border: 1px solid #CCC;
+	margin: 20px;
+}
+.white-space-pre {
+	white-space: pre;
+}
+.white-space-nowrap {
+	white-space: nowrap;
+}
+.white-space-pre-wrap {
+	white-space: pre-wrap;
+}
+.white-space-pre-line {
+	white-space: pre-line;
+}

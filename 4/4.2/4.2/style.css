@@ -1,0 +1,18 @@
+p {
+	margin: 0;
+}
+div {
+	margin: 50px;
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000;
+	position: relative;
+}
+span {
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 20px;
+	right: 20px;
+	background: #CCC;
+}
