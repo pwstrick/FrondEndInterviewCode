@@ -26,16 +26,5 @@ var x = 0, y = 0;
 console.log(x, y);
 ~~~
 
-## 真题集
-&emsp;&emsp;查看文件夹名字为“question”中的文件夹
-【第一套真题集查看文件夹名字为“1”中的文件夹】
-
-**一、单选题**
-1. 第一道题目（）【查看文件夹名字为“1.1”中的代码】
-~~~
-var x = 0, y = 0;
-console.log(x, y);
-~~~
-
 ## 思维导图
 思维导图包括HTML、CSS、JavaScript和网络，.xmind后缀的文件可用[XMind](https://www.xmind.cn)打开。
